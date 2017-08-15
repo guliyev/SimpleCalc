@@ -1,0 +1,51 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp13
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Reqemi daxil edin");
+            var x = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Emeliyyati daixl edin");
+            var emeliyat = Convert.ToChar(Console.ReadLine());
+
+            Console.WriteLine("Ikinci reqemi daxil edin");
+            var n = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Cavab:");
+            Console.ReadLine();
+
+
+
+
+
+            if (emeliyat == '+')
+            {
+                Console.WriteLine(x + n);
+            }
+            if (emeliyat == '-')
+            {
+                Console.WriteLine(x - n);
+            }
+            if (emeliyat == '*')
+            {
+                Console.WriteLine(x * n);
+            }
+            if (emeliyat == '/')
+            {
+                Console.WriteLine(x / n);
+            }
+
+        }
+
+
+    }
+}
+    
